@@ -1,0 +1,885 @@
+/* Font styles. */
+/* line 2, ../sass/style.sass */
+
+@font-face {
+    font-family: 'TheSans-PlainRegular';
+    src: url('/sites/all/themes/ua_science_dept/fonts/thesans/thsp____-webfont.eot');
+    src: url('/sites/all/themes/ua_science_dept/fonts/thesans/thsp____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/sites/all/themes/ua_science_dept/fonts/thesans/thsp____-webfont.woff') format('woff'),
+         url('/sites/all/themes/ua_science_dept/fonts/thesans/thsp____-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'friz_quadrata_stdregular';
+    src: url('/sites/all/themes/ua_science_dept/fonts/frizquadrata/frizquadratastd-webfont.eot');
+    src: url('/sites/all/themes/ua_science_dept/fonts/frizquadrata/frizquadratastd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/sites/all/themes/ua_science_dept/fonts/frizquadrata/frizquadratastd-webfont.woff') format('woff'),
+         url('/sites/all/themes/ua_science_dept/fonts/frizquadrata/frizquadratastd-webfont.ttf') format('truetype'),
+         url('/sites/all/themes/ua_science_dept/fonts/frizquadrata/frizquadratastd-webfont.svg#friz_quadrata_stdregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	height: 100%;
+  margin: 0;
+  /* Setting up font size, leading and font family
+   * http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography */
+	background: #eee url(../images/bg_page.png) repeat-y center top;   
+  font: 13px/1.5em Arial, helvetica, sans-serif;
+  color: #666;
+}
+
+/* Links */
+/* line 11, ../sass/style.sass */
+a
+{
+  color: #339adb;
+}
+
+/* line 16, ../sass/style.sass */
+a:hover 
+{
+	color: #000;
+}
+
+/* Titles. */
+/* line 21, ../sass/style.sass */
+#site-name {
+	width: 550px;
+	position: absolute;
+	left: 102px;
+	top: 49px;
+  font-size: 210%;
+  line-height: 1.0em;
+  font-weight: 300;
+  padding: 0;
+  margin: 0; 
+  font-family: friz_quadrata_stdregular, serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #063a75;
+  }
+  
+#site-name a 
+{
+	color: #063A75;
+	text-decoration: none;
+}
+
+#site-name a:hover 
+{
+	color: #063A75;
+	text-decoration: none;
+}
+
+  
+
+#site-slogan
+{
+	display: none;
+}
+
+#uofa_utility_menu
+{
+	color: #888;
+}
+
+
+#uofa_utility_links a
+{
+	text-decoration: none;
+	color: #888;
+	font-size: 10px;
+	text-transform:uppercase;
+}
+
+#uofa_utility_links a:hover
+{
+	text-decoration: underline;
+	color: #000;
+}
+
+
+#header-region
+{
+	position: absolute;
+	width: 240px;
+	top: 50px;
+	right: 0;
+	height: 26px;
+	text-align: right;
+}
+
+#search-block-form .form-submit
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 25px;
+	height: 26px;	
+	text-indent: -9999px;
+	border:none;
+    outline:none;
+	cursor: pointer;
+	background: transparent url(../images/bg_search_button.png) no-repeat 0 0;   
+	font-size: 0; /*hide from IE7*/
+}
+
+#search-block-form .form-text
+{
+	position: absolute;
+	left: 24px;
+	top: 0;
+	width: 215px;
+	height: 26px;
+	border:none;
+    outline:none;	
+	background: transparent url(../images/bg_search_box.png) no-repeat -37px 0;   
+	
+}
+
+#search-block-form .element-invisible
+{
+	text-indent: -9999px;
+}
+
+
+
+/* SUPERFISH MENU STYLES */
+
+#uofa_global_nav
+{
+}
+
+
+#uofa_global_nav .sf-menu
+{
+	
+}
+	
+#uofa_global_nav .sf-menu li
+{
+	
+}
+
+/*global nav tab styles*/
+#uofa_global_nav .sf-menu li a
+{
+	padding: 8px;
+	background: #fff;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #404040;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #666;
+	text-decoration: none;
+}
+
+#uofa_global_nav .sf-menu li a:hover
+{
+	color: #000;
+	background: #efefef;
+}
+
+#uofa_global_nav .sf-menu li.first a
+{
+	border-left: none;
+}
+
+#uofa_global_nav .sf-menu li.last a
+{
+	border-right: none;
+}
+
+/*global nav - active item styles*/
+#uofa_global_nav .sf-menu li.active-trail a
+{
+	color: #000;
+	background: #ddd;
+}
+
+
+/*global nav - menu item styles*/
+#uofa_global_nav .sf-menu .sf-megamenu a
+{
+	background: #ddd;
+	border-right: none;
+	padding: 5px 10px;
+}
+#uofa_global_nav .sf-menu .sf-megamenu a:hover
+{
+	background: #ddd;
+	text-decoration: underline;
+}
+
+/* override superfish submenu position */
+.sf-menu li:hover > ul, .sf-menu li.sfHover > ul
+{
+	top: 26px;
+}
+
+
+/*MAKE A GIFT BUTTON*/
+#uofa_make_gift 
+{
+	width: 100px;
+	text-align: right; 
+	position: absolute;
+	top: 0;
+	right: 18px;
+}
+
+
+
+
+/*BREADCRUMB*/
+.breadcrumb
+{
+	font-size: 10px;
+	text-transform: uppercase;
+	background: none;	
+	color: #666;
+}
+
+/* this span goes around the title - no anchor tag*/
+.breadcrumb span
+{
+	color: #339adb;
+}
+
+.breadcrumb a
+{
+	color: #666;
+	text-decoration: none;
+}
+
+.breadcrumb a:hover
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+
+
+/* insert bg vertical rule in content area */
+#page
+{
+	background: #fff url(../images/bg_content_vertstripe.png) no-repeat 605px 225px;	
+}
+
+
+
+
+
+/* line 28, ../sass/style.sass */
+h1 {
+  line-height: 1.0em; 
+  font-family: TheSans-PlainRegular;
+  margin: 0;
+  padding: 0;
+  }
+
+h2, h3, h4, h5, h6 {
+  line-height: 1.0em; 
+  font-family: arial, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  }
+
+/* line 31, ../sass/style.sass */
+h1 {
+  font-size: 218%;
+  font-weight: 300;  
+  margin: 0; 
+  
+  }
+
+/* line 37, ../sass/style.sass */
+h2 {
+  font-size: 164%;
+  font-weight: 400;
+  margin-bottom: 0.35em; 
+  	color: #444;
+  }
+  
+
+/* line 42, ../sass/style.sass */
+h3 {
+  font-size: 150%;
+  font-weight: 400;
+  margin-bottom: .20em; 
+  color: #555;
+  }
+
+/* line 46, ../sass/style.sass */
+h4 {
+  font-size: 125%;
+  font-weight: 700;
+  margin-bottom: 0.11em; 
+  color: #777;
+  }
+
+/* line 50, ../sass/style.sass */
+h5 {
+  font-size: 112%;  
+  margin-bottom: 0; 
+  font-weight: bold; 
+  color: #555;
+  }
+
+/* line 55, ../sass/style.sass */
+h6 {
+  font-size: 12px;
+  font-weight: bold; 
+  color: #555;
+  }
+
+/* Paragraph styles. */
+/* line 60, ../sass/style.sass */
+p {
+  margin: 0 0 1em 0; }
+
+/* List styles. */
+/* line 64, ../sass/style.sass */
+ul, ol {
+  margin-left: 0;
+  padding-left: 2em; }
+
+/* Table styles. */
+/* line 69, ../sass/style.sass */
+table {
+  width: 99%; }
+
+/* line 74, ../sass/style.sass */
+tr.even td,
+tr.odd td {
+  padding: 10px 5px; }
+
+/* line 77, ../sass/style.sass */
+tr.odd {
+  background-color: white; }
+
+/* Code. */
+/* line 81, ../sass/style.sass */
+pre, code, tt {
+  font: 1em "andale mono", "lucida console", monospace;
+  line-height: 1.5; }
+
+/* line 85, ../sass/style.sass */
+pre {
+  background-color: #efefef;
+  display: block;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #aaaaaa; }
+
+/* List styles. */
+/* line 93, ../sass/style.sass */
+ul {
+  list-style-type: disc; }
+  /* line 95, ../sass/style.sass */
+  ul ul {
+    list-style-type: circle; }
+    /* line 97, ../sass/style.sass */
+    ul ul ul {
+      list-style-type: square; }
+      /* line 99, ../sass/style.sass */
+      ul ul ul ul {
+        list-style-type: circle; }
+
+/* line 102, ../sass/style.sass */
+ol {
+  list-style-type: decimal; }
+  /* line 104, ../sass/style.sass */
+  ol ol {
+    list-style-type: lower-alpha; }
+    /* line 106, ../sass/style.sass */
+    ol ol ol {
+      list-style-type: decimal; }
+
+/* Abbreviation. */
+/* line 110, ../sass/style.sass */
+abbr {
+  border-bottom: 1px dotted #666666;
+  cursor: help;
+  white-space: nowrap; }
+
+/* UI improvments. */
+/* line 116, ../sass/style.sass */
+#edit-title {
+  font-size: 24px;
+  width: 99%; }
+
+/* line 120, ../sass/style.sass */
+#system-themes-form img {
+  width: 100px; }
+
+/* line 123, ../sass/style.sass */
+.form-item .description {
+  font-style: italic;
+  line-height: 1.2em;
+  font-size: 0.8em;
+  margin-top: 5px;
+  color: #777777; }
+
+/* line 130, ../sass/style.sass */
+#edit-delete {
+  color: #cc0000; }
+
+/* Console, style from slate theme. */
+/* line 134, ../sass/style.sass */
+div.messages {
+  padding: 9px;
+  margin: 1em 0;
+  color: #003366;
+  background: #bbddff;
+  border: 1px solid #aaccee; }
+
+/* line 141, ../sass/style.sass */
+div.warning {
+  color: #884400;
+  background: #ffee66;
+  border-color: #eedd55; }
+
+/* line 146, ../sass/style.sass */
+div.error {
+  color: white;
+  background: #ee6633;
+  border-color: #dd5522; }
+
+/* line 151, ../sass/style.sass */
+div.status {
+  color: #336600;
+  background: #ccff88;
+  border-color: #bbee77; }
+
+
+
+
+/* RIGHTHAND SIDEBAR MENU STYLES */
+.block-menu-block
+{
+	background: none;
+}
+
+.block-menu-block ul, .block-menu-block ol 
+{
+	padding-left: 1em;
+}
+
+
+.block-menu-block h2
+{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+
+.block-menu-block .menu li
+{
+	list-style: none;
+	list-style-image: none;/* IE7 bug fix */
+}
+
+
+.block-menu-block a
+{
+	color: #777;
+	font-size: 12px;
+	line-height: 1.0em;
+	text-decoration: none;
+}
+
+.block-menu-block a:hover
+{
+	text-decoration: underline;
+}
+
+.block-menu-block a.active-trail.active
+{
+	color: #339adb;
+}
+
+
+
+
+/* Region Colors. delete when starting a new theme. */
+/* line 157, ../sass/style.sass */
+#header {
+  
+  }
+
+
+#footer
+{
+  background: #2b2b2b url(../images/bg_footer_art.png) no-repeat center top;  
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  position:absolute;
+  bottom: 0;
+  
+  /*sticky footer rules*/
+ 	position: absolute;
+	height: 200px;
+}  
+
+
+#footer h2
+{
+	font-family: friz_quadrata_stdregular, serif;
+  	font-weight: 500;
+  	text-transform: uppercase;
+	color: #ccc;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 18px;	
+}
+
+
+#footer .block-menu h2
+{
+	font-family: arial, Arial, Helvetica, sans-serif;
+  	text-transform: uppercase;
+	color: #ccc;
+	font-size: 11px;
+	text-align: left;
+	padding: 0;
+	margin: 0 0 3px 0;
+}
+
+#footer .block-menu ul, #footer .block-menu ol
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#footer .block-menu li
+{
+	padding: 0;
+	margin: 0 0 2px 0;
+	list-style: none;
+	list-style-image: none;/* IE7 bug fix */
+}
+
+#footer .block-menu li a
+{
+	color: #ccc;
+	font-size: 10px;
+	text-decoration: none;
+	line-height: 1.0em;
+}
+
+#footer .block-menu li a:hover
+{
+	text-decoration: underline;
+}
+
+
+/* container for footer menus */
+#uofa_footer_menu_container
+{
+	width: 924px;
+	margin-left: 18px;
+	overflow: hidden;
+}
+
+#footer #uofa_footer_menu_container .block-menu
+{
+	float: left;
+	margin-right: 18px;
+	font-size: 11px;
+	line-height: 1.0em;
+	width: 97px;
+}
+
+#footer #uofa_footer_socialmedia
+{
+	position: absolute;
+	top: 18px;
+	right: 18px;
+	text-align: right;
+}
+
+#footer #uofa_footer_copyright
+{
+	position: absolute;
+	text-align: center;
+	top: 180px;
+	font-size: 11px;
+	color: #999;
+	width: 924px;
+}
+
+
+
+/* line 160, ../sass/style.sass */
+#sidebar-first {
+  background: #fff; }
+
+/* line 163, ../sass/style.sass */
+#sidebar-second 
+{
+  background: #fff;
+  width: 320px; 
+}
+
+/* line 166, ../sass/style.sass */
+#navigation {
+	display: none;
+  background: #feffa5; }
+  
+  
+  
+/* HOMEPAGE STYLES */  
+.homepage_featured_image_container
+{
+	background: transparent url(../images/bg_featured_article_shadow.png) no-repeat bottom center; 
+	height: 223px;
+	
+}
+
+.homepage_featured_image_container img
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.homepage_caption
+{
+	font-size: 10px;
+	margin-top: -20px;
+	margin-bottom: 18px;
+}
+
+.homepage_featured_article_title
+{
+	font-family: TheSans-PlainRegular;
+	font-size: 270%;
+	line-height: 1.0em; 	
+	color: #666;
+}
+
+.homepage_featured_article_title a
+{
+	text-decoration: none;
+	color: #666;
+}
+
+.homepage_featured_article_title a:hover
+{
+	color: #339adb;
+}
+
+
+.view-homepage-featured-article .view-footer
+{
+	margin-bottom: 18px;
+	padding-bottom: 14px;
+	background: transparent url(../images/bg_homepage_horz_divider.png) no-repeat bottom center; 
+}
+
+
+
+/* director's message */
+
+#uofa_homepage_message
+{
+
+}
+
+#uofa_homepage_message h3
+{
+	font-family: TheSans-PlainRegular;
+}
+
+
+.homepage_message_image_wrapper
+{
+	float: left;
+	margin: 0 18px 4px 0; 
+}
+
+.homepage_message_image_caption
+{
+	font-size: 10px;
+	margin-top: -4px;
+	margin-bottom: 0;
+}
+
+
+#uofa_homepage_message .view-footer
+{
+	width: 150px;
+	text-align: right;
+	float: right;
+}
+
+
+
+/* HOMEPAGE TRIPTYCH DIVS */
+
+#uofa_homepage_triptych_rule
+{
+	height: 18px;
+	*height: 5px;/*IE7 hack*/
+	margin-bottom: 20px;	
+	clear: both;
+	background: transparent url(../images/bg_blurbs_horz_rule.png) no-repeat bottom center;
+}
+
+#uofa_homepage_triptych_container
+{
+	width: 924px;
+	clear: both;
+}
+
+#uofa_homepage_triptych_container p
+{
+	font-size: 11px;
+	line-height: 15px;
+}
+
+#uofa_homepage_triptych_container p.more_link
+{
+	font-size: 12px;
+}
+
+.homepage_triptych
+{
+	padding-left: 70px;
+	width: 226px;		
+}
+
+.homepage_triptych .floatleft
+{
+	margin-left: -70px;
+}
+
+
+#uofa_homepage_triptych_first
+{
+	
+	float: left;
+	margin-right: 18px;	
+}
+
+#uofa_homepage_triptych_middle
+{
+	float: left;
+	margin-right: 18px;	
+}
+
+#uofa_homepage_triptych_last
+{
+	float: right;
+	margin-right: 0;	
+}
+
+
+/* SIDEBAR MENU LINK STYLES */
+#sidebar-second-inner .menu
+{
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+	list-style-image: none;/* IE7 bug fix */
+}
+
+#sidebar-second-inner .menu ol
+{
+	padding-left: 10px;
+}
+
+
+#sidebar-second-inner .menu li
+{
+	margin-left: 0;
+	list-style: none;
+	list-style-image: none;/* IE7 bug fix */
+}
+
+#sidebar-second-inner .menu li a
+{
+	color: #777;
+	font-size: 12px;
+	line-height: 1.0em;
+	text-decoration: none;
+}
+
+#sidebar-second-inner .menu li a:hover
+{
+	text-decoration: underline;
+}
+
+#sidebar-second-inner .menu li a.active-trail.active
+{
+	color: #339adb;
+}
+
+
+
+
+/* SIDEBAR MENU LINK STYLES - featured articles */
+#sidebar-second .view-id-homepage_featured_article
+{
+	margin-top: 25px;
+	border: 1px solid #eee;
+}
+
+#sidebar-second .view-id-homepage_featured_article h5
+{
+	background-color: #eee;
+	padding: 5px 10px;
+}
+
+
+.featured_article_sidebar_list_wrapper
+{
+	padding: 5px 10px;	
+}
+.featured_article_sidebar_list_wrapper ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-image: none; /*IE7 hack*/
+}
+
+.featured_article_sidebar_list_wrapper li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-image: none; /*IE7 hack*/
+}
+
+.featured_article_sidebar_list_wrapper li a
+{
+	font-size: 11px;
+}
+
+
+.more_link
+{
+	clear: both;
+	text-align: right;	
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.more_link a
+{
+	background: transparent url(../images/bg_more_link_arrow.png) no-repeat 100% 75%; 
+	padding-right: 17px;	
+}
+

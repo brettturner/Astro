@@ -1,0 +1,186 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+#secondary-menu {
+    display: none;
+}
+
+#header {
+    position: relative;
+}
+
+#top-menu {
+    color: #898A8C;
+    font-size: 9px;
+    position: absolute;
+    right: 65px;
+    top: 10px;
+}
+
+#top-menu a {
+    color: #898a8c;
+    font-size: 9px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#top-social-media {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+#homepage h2 {
+    color: #595959;
+    font-family: "Myriad Pro","Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 36px;
+}    
+
+#homepage p {
+    font-family: arial;
+    font-size:12px;
+    line-height: 18px;
+    color: #747474;
+}
+
+#static1 h2, #static2 h2, #static3 h2 {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: arial;
+    font-weight: bold;
+    color: #434343;
+    margin-bottom: 5px;
+}
+
+
+#static1 p, #static2 p, #static3 p{
+    font-size: 10px;
+    line-height: 15px;
+    font-family arial;
+    color: #747474;
+}
+
+.footer_column {
+    width: 150px;
+    float: left;
+}
+
+.subscription {
+    width: 185px;
+    float: left;
+}
+
+#footer {
+    background: #2b2b2b;
+    margin-left: -15px;
+    width: 1021px;
+}
+
+
+
+.block /* Block wrapper */ {
+  margin-bottom: 1.5em;
+}
+
+.block.first /* The first block in the region */ {
+}
+
+.block.last /* The last block in the region */ {
+}
+
+.block.odd /* Zebra striping for each block in the region */ {
+}
+
+.block.even /* Zebra striping for each block in the region */ {
+}
+
+h2.block-title /* Block title */ {
+}
+
+.block .content /* Block's content wrapper */ {
+}
+
+#block-aggregator-category-1 /* Block for the latest news items in the first category */ {
+}
+
+#block-aggregator-feed-1 /* Block for the latest news items in the first feed */ {
+}
+
+#block-block-1 /* First block created with "Add block" link */ {
+}
+
+#block-blog-recent /* "Recent blog posts" block */ {
+}
+
+#block-book-navigation /* "Book navigation" block for the current book's table of contents */ {
+}
+
+#block-comment-recent /* "Recent comments" block */ {
+}
+
+#block-forum-active /* "Active forum topics" block */ {
+}
+
+#block-forum-new /* "New forum topics" block */ {
+}
+
+#block-locale-language /* Language switcher block */ {
+}
+
+#block-menu-menu-NAME /* Custom menu block  */ {
+}
+
+#block-node-recent /* "Recent content" block */ {
+}
+
+#block-node-syndicate /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */ {
+}
+
+#block-poll-recent /* "Most recent poll" block */ {
+}
+
+#block-profile-author-information /* "Author information" block for the profile of the page's author */ {
+}
+
+#block-search-form /* "Search form" block */ {
+}
+
+#block-shortcut-shortcuts /* "Shortcuts" block */ {
+}
+
+#block-statistics-popular /* "Popular content" block */ {
+}
+
+#block-system-main-menu /* "Main menu" block */ {
+}
+
+#block-system-management /* "Management" block for Drupal management menu */ {
+}
+
+#block-system-navigation /* "Navigation" block for Drupal navigation menu */ {
+}
+
+#block-system-user-menu /* "User menu" block for Drupal user menu */ {
+}
+
+#block-system-help /* "System help" block */ {
+}
+
+#block-system-main /* "Main page content" block */ {
+}
+
+#block-system-powered-by /* "Powered by Drupal" block */ {
+}
+
+#block-user-login /* "User login form" block */ {
+}
+
+#block-user-new /* "Who's new" block for a list of the newest users */ {
+}
+
+#block-user-online /* "Who's online" block for a list of the online users */ {
+}

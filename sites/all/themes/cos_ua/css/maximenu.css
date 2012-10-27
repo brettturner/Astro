@@ -1,0 +1,100 @@
+.om-maximenu-no-style .om-maximenu-content .om-maximenu-middle-right {
+  padding: 7px;
+}
+
+.om-maximenu .om-maximenu-content {
+  left: 0;
+  top: 30px;
+  padding: 0;
+  font: 9pt Arial;
+}
+
+.om-maximenu .leaf-outreach .om-maximenu-content,
+.om-maximenu .leaf-students .om-maximenu-content,
+.om-maximenu .leaf-research .om-maximenu-content {
+  left: auto;
+  right: 0;
+}
+
+.om-maximenu ul.om-menu li.om-leaf .om-link {
+  line-height: 13px;
+  padding: 2px;
+}
+
+.om-active .om-link {
+  background: #dcddde;
+}
+
+.om-maximenu-no-style .om-maximenu-content .om-maximenu-middle{
+  background: #dcddde;
+  width: 570px;
+}
+
+/* Outreach Override */
+.leaf-outreach .om-maximenu-content .om-maximenu-middle{
+ width: 520px;
+}
+
+ .om-maximenu .leaf-outreach .block-menu {
+  padding: 10px;
+  width: 215px;
+  float: left;
+}
+/* End Outreach Override */
+
+.om-maximenu-content ul li {
+  list-style: none;
+}
+
+.om-maximenu-content ul li a {
+    color: #231F20;
+    display: block;
+    line-height: 20px;
+    width: 250px;
+}
+
+.om-maximenu .block-menu {
+  padding: 10px;
+  width: 265px;
+  float: left;
+}
+
+.om-maximenu .om-maximenu-content .block-block {
+  padding: 6px 9px;
+  margin: 0;
+  width: 253px;
+  float: left;
+  background: #FFF;
+  position: static;
+}
+
+.om-maximenu-content h3 {
+  color: #2a2a2a
+}
+
+.om-maximenu-content .block-block div.description {
+  font-size: 8pt;
+  color: #8a8a8a;
+}
+
+.om-maximenu-content .block-block p {
+  text-align: right;
+}
+
+.om-maximenu-content .block-block a {
+  color: #44acf5;
+  padding-right: 16px;
+  background: url(../images/menu_arrow.png) no-repeat 100% 50%;
+}
+
+.om-maximenu-content .see_all {
+  position:absolute;
+  left: 17px;
+  bottom: 17px;
+  padding-top: 13px;
+  background: url(../images/menu_separator.gif) repeat-x 0 0;
+}
+
+.om-maximenu .om-maximenu-open {
+  display: none;
+}

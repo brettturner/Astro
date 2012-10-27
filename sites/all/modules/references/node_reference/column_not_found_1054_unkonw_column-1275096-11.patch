@@ -1,0 +1,24 @@
+diff --git a/node_reference/node_reference.module b/node_reference/node_reference.module
+index 2fbaf1b..1752cd7 100644
+--- a/node_reference/node_reference.module
++++ b/node_reference/node_reference.module
+@@ -1044,7 +1044,6 @@ function node_reference_field_views_data($field) {
+       $data[$table][$id_column]['relationship'] = array(
+         'handler' => 'references_handler_relationship',
+         'base' => 'node',
+-        'field' => 'nid',
+         'base field' => 'nid',
+         'label' => $field['field_name'],
+         'field_name' => $field['field_name'],
+diff --git a/user_reference/user_reference.module b/user_reference/user_reference.module
+index c7fa11b..52777ce 100644
+--- a/user_reference/user_reference.module
++++ b/user_reference/user_reference.module
+@@ -873,7 +873,6 @@ function user_reference_field_views_data($field) {
+       $data[$table][$id_column]['relationship'] = array(
+         'handler' => 'references_handler_relationship',
+         'base' => 'users',
+-        'field' => 'uid',
+         'base field' => 'uid',
+         'label' => $field['field_name'],
+         'field_name' => $field['field_name'],

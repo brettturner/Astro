@@ -1,0 +1,106 @@
+#quicktabs-container-homepage_main_widget {
+  padding: 0;
+  width: 447px;
+  height: 426px;
+  overflow: hidden;
+    -moz-box-shadow: 0 3px 5px #C7C8CA;
+    -webkit-box-shadow: 0 3px 5px #C7C8CA;
+    box-shadow: 0 3px 5px #C7C8CA;
+}
+
+#block-views-spotlight-block-block {
+  padding: 10px 10px 0 10px;
+}
+
+.view-news-block,
+.view-recent-lectures {
+  font: 9pt Arial;
+  color: #747474;
+}
+
+.view-news-block .view-content,
+.view-recent-lectures .view-content {
+  height: 375px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.view-news-block .view-content img,
+.view-recent-lectures .view-content img {
+  margin:0 10px 10px 0;
+}
+
+.view-news-block .view-content .views-field-title,
+.view-recent-lectures .view-content .views-field-title {
+  margin-bottom:4px;
+}
+
+.view-news-block .view-content .views-field-title span,
+.view-news-block .view-content .views-field-title a,
+.view-recent-lectures .view-content .views-field-title span,
+.view-recent-lectures .view-content .views-field-title a {
+  font-weight: bold;
+  color: #252525;
+}
+
+.view-news-block .view-content .views-field-field-feed-item-description {
+  width: 342px;
+}
+
+.view-news-block .view-content .views-field-field-destination {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.view-news-block .view-content .views-field-field-destination a {
+  color: #44acf5;
+  background: url(../images/menu_arrow.png) no-repeat 100% 50%;
+  padding-right: 16px;
+}
+
+.view-news-block .views-row,
+.view-recent-lectures .views-row {
+  margin-bottom: 20px;
+}
+
+.view-news-block .view-footer,
+.view-recent-lectures .view-footer {
+  margin: 0;
+  width: auto;
+  padding: 6px 26px 6px 6px;
+  border-top: solid 1px #c7c8ca;
+  text-align: right;
+}
+
+.view-news-block .view-footer p,
+.view-recent-lectures .view-footer p {
+  margin: 0;
+}
+
+.view-news-block .view-footer a,
+.view-recent-lectures .view-footer a {
+  background: url(../images/menu_arrow.png) no-repeat 100% 50%;
+  padding-right: 16px;
+  font-weight: bold;
+}
+
+#static_holder .block {
+  font: 10px/15px Arial;
+}
+
+#static_holder .block img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#static_holder .block div.description {
+  float: left;
+  width: 205px;
+}
+
+#static_holder .block .more_link {
+  font-size: 9pt;
+  color: #44acf5;
+  padding-right: 16px;
+  background: url(../images/menu_arrow.png) no-repeat 100% 50%;
+}
