@@ -661,6 +661,7 @@ div.status {
 	margin-bottom: 18px;
 }
 
+
 .homepage_featured_article_title
 {
 	font-family: TheSans-PlainRegular;
@@ -686,6 +687,13 @@ div.status {
 	margin-bottom: 18px;
 	padding-bottom: 14px;
 	background: transparent url(../images/bg_homepage_horz_divider.png) no-repeat bottom center; 
+}
+
+.featured_caption_fullstory
+{
+	font-size: 10px;
+	margin-top: -2px;
+	margin-bottom: 12px;
 }
 
 
@@ -786,29 +794,34 @@ div.status {
 }
 
 
-/* SIDEBAR MENU LINK STYLES */
-#sidebar-second-inner .menu
+
+/* RIGHTHAND SIDEBAR MENU STYLES */
+.block-menu-block
 {
-	margin-left: 0;
-	padding-left: 0;
-	list-style: none;
-	list-style-image: none;/* IE7 bug fix */
+	background: none;
 }
 
-#sidebar-second-inner .menu ol
+#sidebar-second-inner ul, #sidebar-second-inner ol 
 {
-	padding-left: 10px;
+	padding-left: 1em;
 }
 
+
+#sidebar-second-inner h2
+{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
 
 #sidebar-second-inner .menu li
 {
-	margin-left: 0;
 	list-style: none;
 	list-style-image: none;/* IE7 bug fix */
 }
 
-#sidebar-second-inner .menu li a
+
+#sidebar-second-inner a
 {
 	color: #777;
 	font-size: 12px;
@@ -816,16 +829,25 @@ div.status {
 	text-decoration: none;
 }
 
-#sidebar-second-inner .menu li a:hover
+#sidebar-second-inner a:hover
 {
 	text-decoration: underline;
 }
 
-#sidebar-second-inner .menu li a.active-trail.active
+#sidebar-second-inner a.active-trail.active
 {
 	color: #339adb;
 }
 
+
+
+/* SIDEBAR MENU LINK STYLES - news menu */
+
+#block-menu-menu-news ul.menu 
+{
+	padding: 0;
+	margin: -7px;
+}
 
 
 
@@ -843,30 +865,35 @@ div.status {
 }
 
 
-.featured_article_sidebar_list_wrapper
+.featured_article_sidebar_list_wrapper 
 {
 	padding: 5px 10px;	
 }
 .featured_article_sidebar_list_wrapper ul
 {
-	margin: 0;
+	margin-left: -1em;
 	padding: 0;
 	list-style: none;
 	list-style-image: none; /*IE7 hack*/
+	
 }
 
 .featured_article_sidebar_list_wrapper li
 {
-	margin: 0;
+	margin: 0 0 3px 0;
 	padding: 0;
 	list-style: none;
 	list-style-image: none; /*IE7 hack*/
+	line-height: 13px;
 }
 
 .featured_article_sidebar_list_wrapper li a
 {
-	font-size: 11px;
+	font-size: 11px;	
 }
+
+
+
 
 
 .more_link
